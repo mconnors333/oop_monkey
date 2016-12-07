@@ -38,7 +38,7 @@ describe Monkey do
     jesse = Monkey.new("Jesse", "Dusky Leaf Monkey")
     jesse.eat("cheeseburger")
     jesse.eat("bacon")
-
+    
     expect(jesse.introduce).to include("Jesse")
     expect(jesse.introduce).to include("Dusky Leaf Monkey")
     expect(jesse.introduce).to include("cheeseburger")
